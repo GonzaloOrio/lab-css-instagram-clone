@@ -4,7 +4,126 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+}
+
+.background{
+  background-color: #1c5380;
+  height: 400px;
+  position: absolute;
+  width: 100%;
+}
+
+.content-page{
+  height: 800px;
+  padding: 2% 15%;
+  position: relative;
+  top: 120px;
+}
+
+.image-phones{
+  float: left;
+  margin-left: 6%;
+  width: 35%;
+}
+
+.image-phones > img{
+  width: 91%;
+
+}
+.content-info{
+  float: right;
+  margin-right: 6%;
+  width: 50%;
+}
+
+.head-line{
+  padding: 3% 0 2% 1%;
+  width: 95%;
+}
+
+.head-line > img{
+  width: 65%;
+}
+
+.button-login{
+  background-color: #6187a6;
+  border-radius: 4%;
+  box-shadow: 0px 0px 10px #06365f;
+  float: right;
+  margin-top: 4%;
+  width: 20%;
+}
+
+.button-login > img{
+  float: left;
+  margin: 8%;
+  width: 30px;
+}
+
+.button-login > p{
+  color: #FFF;
+  float: left;
+  font-size: 1.1em;
+  margin: 8% 4%;
+  text-shadow: 1px 1px 3px #06365f;
+}
+
+.app-info{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subtitle{
+  color: #06365f;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 6% 8% 2% 8%;
+}
+
+.paragraph{
+  font-size: 1.3em;
+  margin: 0 auto;
+  padding: 1% 8%;
+}
+
+span{
+  font-weight: bold;
+}
+
+.stores-images{
+  padding: 8% 8%;
+}
+
+.iphone-store{
+  padding-right: 4%;
+  width: 230px;
+}
+
+.android-store{
+  width: 216px;
+}
+
+
+.list-nav{
+  text-align: center;
+}
+
+.option-page, .copyrigth-istagram{
+  display:inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 25px 12px;
+}
+
+.option-page{
+   color: #1c5380;
+}
+
+.copyrigth-istagram{
+   color: #969696;
 }
